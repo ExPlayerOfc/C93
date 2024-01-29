@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .chat-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .chat-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .chat-message .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .chat-message .message {
+    padding: 10px;
+    margin-left: 10px;
+  }
+  
+  .chat-message.sent .message {
+    background-color: #ccc;
+  }
+  
+  .chat-message.received .message {
+    background-color: #eee;
+  }
